@@ -1,0 +1,12 @@
+PESCARIA - como executar (precisa do Java 11 ou superior)
+
+JOGO WEB (2 jogadores): de dois cliques em EXECUTAR_JOGO_WEB.bat (Windows)
+ou rode "sh EXECUTAR_JOGO_WEB.sh" (Linux/Mac). Abra http://localhost:8080
+em duas abas e entre com nomes diferentes. Rode sempre de dentro desta pasta
+(o servidor procura as pastas "web" e "dados").
+
+VERSAO SOCKET (terminal): EXECUTAR_SERVIDOR_SOCKET.bat e, em outro terminal,
+EXECUTAR_CLIENTE_SOCKET.bat.   VERSAO LOCAL: java -jar pescaria-local.jar
+
+Pastas: src = codigo-fonte | bin = classes compiladas | web = site | dados = progresso
+Para publicar online no Render, veja README-RENDER.md (Dockerfile e render.yaml).
